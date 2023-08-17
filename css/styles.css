@@ -105,6 +105,7 @@ a {
 
 .list-item-text {
   font-size: 16px;
+  line-height: 1.5;
 }
 
 .section-our-team {
@@ -113,7 +114,11 @@ a {
 
 .list-subheading-team {
   text-align: center;
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
   line-height: 1.2;
+  letter-spacing: 0.4px;
 }
 
 .list-item-team {
