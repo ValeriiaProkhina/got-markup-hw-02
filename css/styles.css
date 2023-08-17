@@ -91,13 +91,16 @@ a {
 }
 
 /* Sections */
+.title-solutions {
+  line-height: 1.2;
+}
+
 .list-subheading {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.11;
+  line-height: 1.2;
   letter-spacing: 0.4px;
-  text-align: center;
 }
 
 .list-item-text {
@@ -106,19 +109,30 @@ a {
 
 .section-our-team {
   background: var(--cloud, #f4f4fd);
+  line-height: 1.11;
+  text-align: center;
 }
+
+.list-subheading-team {
+  text-align: center;
+  line-height: 1.2;
+}
+
+.list-item-team {
+  background: var(--white, #fff);
+  line-height: 1.2;
+}
+
 .title-section {
   color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
   letter-spacing: 0.72px;
   text-transform: capitalize;
-  line-height: 0.9;
+  line-height: 0.11;
+  text-align: center;
 }
 
-.list-item-team {
-  background: var(--white, #fff);
-}
 /* Footer */
 .footer {
   background-color: #2e2f42;
